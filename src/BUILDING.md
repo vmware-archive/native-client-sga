@@ -1,6 +1,7 @@
 # Building
     $ cd <clone>
     $ mdkir build
+    $ cd build
     $ cmake ../src
     $ cmake --build .
 
@@ -13,7 +14,7 @@
 # System Requirements
 ## All Platforms
 ### Required Tools
-* [CMake 4.3](https://cmake.org/) or newer
+* 64 bit version of [CMake 3.4](https://cmake.org/) or newer
 * C++11 compiler *(see platform specific requirements)*
 
 ### Optional Tools
@@ -38,6 +39,11 @@
 * Windows 10 64-bit
 * Windows Server 2012 64-bit
 * Windows Server 2012 R2 64-bit
+
+# Building
+    $ cmake -G "Visual Studio 12 2013 Win64" ../src
+    or
+    $ cmake -G "Visual Studio 14 2015 Win64" ../src
 
 ### Required Tools
 * [Visual Studio 2013](https://www.visualstudio.com) or newer
