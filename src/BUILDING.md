@@ -40,14 +40,17 @@
 * Windows Server 2012 64-bit
 * Windows Server 2012 R2 64-bit
 
-# Building
-    $ cmake -G "Visual Studio 12 2013 Win64" ../src
-    or
-    $ cmake -G "Visual Studio 14 2015 Win64" ../src
-
 ### Required Tools
 * [Visual Studio 2013](https://www.visualstudio.com) or newer
 * [Cygwin](https://www.cygwin.com/)
+
+### Building
+    Instead of 
+    `$ cmake ../src` 
+    use   
+    `$ cmake -G "Visual Studio 12 2013 Win64" ../src`
+    or
+    `$ cmake -G "Visual Studio 14 2015 Win64" ../src`
 
 ## Linux
 * RHEL/CentOS 6
